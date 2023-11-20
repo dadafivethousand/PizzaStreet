@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Agbalumo';
+    src: local('Agbalumo'), 
+         url('../Fonts/Agbalumo-Regular.ttf') format('truetype');
+      
+    font-weight: normal;
+    font-style: normal;
+}
+
+.AboutContainer {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0vh;
+ background-image: url('../Images/meal.jpg');
+ background-size: cover;
+    margin:0px;
+    border:0px;
+    padding-top: 120px;
+    min-height:100vh;
+    
+}
+
+.Image {
+    display: block; /* Centers image in the container */
+    max-width: 75%; /* Maximum width is 100% of the container */
+    max-height: 50%;
+   
+    margin: 0 auto; /* Center the image */
+    border: 5px solid rgb(190, 138, 6);
+    border-radius: 10px;
+}
+
+.AboutText {
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    border: 10px solid black;
+ 
+     
+}
+
+.AboutFrame {
+ margin:0vh 5vh;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    height:fit-content;
+}
+
+.AboutText p {
+    padding-left: 50px;
+    padding-right: 10px;
+    margin-top: 0px;
+    font-size: 1.3rem; /* Adjusts size for better readability */
+    color: #000000; /* Darker color for better contrast */
+    margin-bottom: 20px; /* Adds space below the text */
+    margin-top: 20px;
+    font-family:cursive;
+   
+}
+
+@media(max-width: 500px) {
+
+    .AboutContainer{
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .AboutText p {
+        font-size:small;
+        padding-left: 10px;
+
+    }
+
+    
+    
+.AboutContainer {
+  
+    grid-template-columns: 1fr;
+    .AboutText {
+        font-size:x-large;
+    }
+    
+}
+
+.Image {
+    display: block; /* Centers image in the container */
+    max-width: 100%; /* Maximum width is 100% of the container */
+    height: auto; /* Keep aspect ratio */
+    max-height:100%;    
+    margin: 0 auto; /* Center the image */
+    border: 5px solid rgb(190, 138, 6);
+ 
+}
+
+
+}
