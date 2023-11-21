@@ -1,7 +1,7 @@
 import '../Stylesheets/Menu.css'
 import { useState } from 'react';
 import { Categories, Pastas, Sides, PizzaMenuItems, Beverages, Desert, Specialty } from './MenuItems';
-import pizza from '../Images/pizzaimg.jpg'
+ 
 
  
 

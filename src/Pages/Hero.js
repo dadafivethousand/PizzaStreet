@@ -1,6 +1,6 @@
 import '../Stylesheets/hero.css'
-import logo from '../Images/logo.png'
-import {  FaHome, FaPhone, FaInstagram, FaFacebookF, FaTwitter } from 'react-icons/fa'
+ 
+import {    FaInstagram, FaFacebookF, FaTwitter } from 'react-icons/fa'
 export default function Hero() {
     const Order = (url) => {
         window.open(url, '_blank', 'noopener,noreferrer');
@@ -21,9 +21,9 @@ export default function Hero() {
                 
                     
 <div className='socialMediaIcons'>
-                    <a >  <FaInstagram  /> </a>
-                    <a >  <FaFacebookF   /> </a>
-                    <a >  <FaTwitter   /> </a>
+                    <a href="#" >  <FaInstagram  /> </a>
+                    <a href="#" >  <FaFacebookF   /> </a>
+                    <a href="#" >  <FaTwitter   /> </a>
                     </div>
                     </div>
                     <button onClick={()=>Order('https://www.ubereats.com/store/food-street-toronto/6EaysfLnVH-EftuNpmlU8w?diningMode=DELIVERY')} className='uber-eats-button'>Order Now</button>

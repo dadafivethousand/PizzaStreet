@@ -1,7 +1,7 @@
 import '../Stylesheets/About.css'
-import pizza from '../Images/download.jpg'
+ 
 import Reviews from '../Components/Reviews';
-import Meal from '../Images/meal.jpg'
+ 
 export default function About() {
  
     return (
