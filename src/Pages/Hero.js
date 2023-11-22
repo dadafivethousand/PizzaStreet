@@ -20,9 +20,9 @@ export default function Hero() {
                 
                     
 <div className='socialMediaIcons'>
-                    <a href="#" >  <FaInstagram color='white'  /> </a>
-                    <a href="#" >  <FaFacebookF color='white'  /> </a>
-                    <a href="#" >  <FaTwitter  color='white' /> </a>
+                    <a href="/" >  <FaInstagram color='white'  /> </a>
+                    <a href="/" >  <FaFacebookF color='white'  /> </a>
+                    <a href="/" >  <FaTwitter  color='white' /> </a>
                     </div>
                     </div>
                     <button onClick={()=>Order('https://www.ubereats.com/store/food-street-toronto/6EaysfLnVH-EftuNpmlU8w?diningMode=DELIVERY')} className='uber-eats-button'>Order Now</button>

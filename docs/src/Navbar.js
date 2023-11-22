@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import {  FaBars, FaTimes, FaInstagram, FaFacebookF, FaTwitter } from 'react-icons/fa'
+import {  FaBars, FaTimes } from 'react-icons/fa'
+ //FaInstagram, FaFacebookF, FaTwitter
  
 import logo from './Images/logo.png'
 import { Link } from 'react-scroll'
