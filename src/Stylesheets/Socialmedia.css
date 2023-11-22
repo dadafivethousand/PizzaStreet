@@ -1,0 +1,102 @@
+ 
+.Text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2vh;
+ 
+   
+}
+
+.number {
+    font-size: 1rem;
+    
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.map {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; 
+}
+.socialMediaIcons {
+    display: flex;
+    
+    flex-direction: column;
+    color: red;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+.txt {
+    margin: 1vh;
+    font-size: 1.5rem;
+}
+.Phone {
+    margin: 5px 0; /* Uniform margin for spacing */
+    font-size: 2rem; /* Slightly larger font size for readability */
+    font-family: 'Arial', sans-serif; /* Consistent font family */
+    border-bottom: white 4px double;
+    padding-bottom: 20px;
+ 
+}
+.hours {
+ 
+    font-size: 1.9rem;
+}
+
+.Text {
+    background-color: rgba(0, 0, 0, 0.938);
+    border-radius: 30px;  
+}
+
+.Left {
+    height: fit-content;
+}
+
+.icon {
+    margin:2vh
+}
+
+.Frame {
+ margin:5vh 5vh;
+ 
+    border-radius: 40px;
+    height:fit-content;
+}
+@media (max-width: 800px) {
+.socialMediaIcons{
+    flex-direction: row;
+}
+     
+.Text {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: fit-content;
+}
+    .Name {
+        font-size: 2.5rem; /* Smaller font size for smaller screens */
+    }
+
+  
+     .Address, .h {
+        font-size: 1rem; /* Adjust font size for readability on smaller screens */
+        padding:5px;
+        margin:5px;
+    }
+ 
+    .log{
+        width: 15rem
+    }
+
+    .number {
+ 
+        padding:5rem  0rem;
+        margin:0;
+    }
+
+}

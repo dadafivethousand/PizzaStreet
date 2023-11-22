@@ -1,19 +1,27 @@
     
 /* Reviews.css */
+@keyframes fadeInOut {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+}
 
+.animate {
+    animation: fadeInOut 1s ease-in-out;
+}
 .ReviewsContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: 'Arial', sans-serif;
     background-color: #ffffff;
-    padding: 0 4vh;
+    padding: 0vh;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     width:80%;
-    opacity: 90%;
-    margin: 10vh auto;
+    
+    margin: 0 auto;
     height: 200px;     /* Fixed height */
+    opacity: 90%;
 }
 
 .ReviewsContainer button {
@@ -38,7 +46,11 @@
     margin: 0 20px;
     overflow: auto;
     max-height: 200px;
+    width: 100%;
 font-weight: bold;
+overflow: auto;  /* Enables scrolling for overflowing content */
+
+ 
 }
 
 .ReviewAuthor {

@@ -31,20 +31,7 @@
     border-radius: 10px;
 }
 
-.AboutText {
-    background-color: rgb(255, 255, 255);
-    border-radius: 30px;
-    border: 10px solid black;
- 
-     
-}
 
-.AboutFrame {
- margin:0vh 5vh;
-    border: 10px solid rgb(255, 255, 255);
-    border-radius: 40px;
-    height:fit-content;
-}
 
 .AboutText p {
     padding-left: 50px;
@@ -55,6 +42,7 @@
     margin-bottom: 20px; /* Adds space below the text */
     margin-top: 20px;
     font-family:cursive;
+ 
    
 }
 

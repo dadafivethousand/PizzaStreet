@@ -3,7 +3,7 @@ import { useState } from 'react';
 export default function Reviews() 
 {
     const [reviewIndex, setReviewIndex] = useState(0)
- 
+    const [isAnimating, setIsAnimating] = useState(false);
     const reviews = [
         { text: "Great service and friendly staff!", author: "Jane Doe" },
         { text: "Loved the ambiance and the food was delicious.", author: "John Smith" },
@@ -11,6 +11,9 @@ export default function Reviews()
         { text: "Super Wonderful stuff" , author: "LeBron James" },
         // ... more reviews
     ];
+
+ 
+
     function moveright() {       
         setReviewIndex((prev)=> ((1 + prev) % reviews.length ))        
     }

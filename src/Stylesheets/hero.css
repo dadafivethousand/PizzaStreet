@@ -67,18 +67,6 @@ margin:0 5vh;
     
 }
 
-.Address{
-
-    opacity:75%
-}
-.number {
-    font-size: 2rem;
-    opacity: 75%;
-}
-.socialMediaIcons {
-    display: flex;
-    justify-content: center;
-}
 
 .Name {
  
@@ -90,19 +78,7 @@ margin:0 5vh;
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 
-.Phone {
-    margin: 5px 0; /* Uniform margin for spacing */
-    font-size: 1.3rem; /* Slightly larger font size for readability */
-    font-family: 'Arial', sans-serif; /* Consistent font family */
-    border-bottom: white 4px double;
-    padding-bottom: 20px;
- 
-}
 
-.hours {
- 
-    font-size: 1.9rem;
-}
 
 .scheduleParent {
    
@@ -127,6 +103,7 @@ border-radius: 20%;
 
 .h{
     padding: 0 5vh;
+    font-size: 1.5 rem;
 }
 
  
@@ -136,13 +113,13 @@ border-radius: 20%;
     color: white;
     border: none;
     padding: 10px 20px;
-    font-size: 2em;
+    font-size: 2.5rem;
     font-weight: bold;
     border-radius: 25px;
     cursor: pointer;
     transition: background-color 0.3s;
-    height:10vh;
-    width:40vh;
+    height:fit-content;
+    width:50vh;
     margin: 20px auto;
 
 }
@@ -155,8 +132,10 @@ border-radius: 20%;
     .Name {
         font-size: 2.5rem; /* Smaller font size for smaller screens */
     }
+
+  
      .Address, .h {
-        font-size: 1rem; /* Adjust font size for readability on smaller screens */
+         
         padding:5px;
         margin:5px;
     }
@@ -173,14 +152,14 @@ border-radius: 20%;
     }
 
     .number {
-        font-size: 1rem;
-        padding:0;
+ 
+        padding:5rem  0rem;
         margin:0;
     }
 
     .schedule{
         height:fit-content;
-        width:90%
+        width:fit-content;
 
     }
 }
