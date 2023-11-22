@@ -49,7 +49,7 @@ export default function Menu() {
             <>
                 {items.map((item, index) => (
                     <div className='ItemPrice' key={index}>
-                        <div>{item.type}</div>
+                        <div className='ItemName'>{item.type}</div>
                         <div className='Price'>{formatPrice(item.price)}</div>
                     </div>
                 ))}
