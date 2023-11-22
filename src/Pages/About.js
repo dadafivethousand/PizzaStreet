@@ -7,13 +7,13 @@ export default function About() {
     return (
         <div className="AboutContainer" id='about'>
         
-            
+        <Reviews />   
  
 <SocialMedia />
  
  
   
-<Reviews />
+
           
           
 
