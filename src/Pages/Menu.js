@@ -72,7 +72,7 @@ export default function Menu() {
                 </ul>
             </div>
             <div className='SecondColumn'>
-                <div className='Menu'>
+                <div className='Menu '>
                     {renderMenuItems()}
                 </div>
             </div>
