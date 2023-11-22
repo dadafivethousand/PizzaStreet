@@ -21,8 +21,8 @@ export const Sides = [
 
 export const Pastas = [
     {type: 'Chicken Alfredo', price: 14}, 
-    {type: 'Shrimp', price: 14},
-    {type: 'Spaghetti with Tomato Sauce', price: 12},
+    {type: 'Shrimp Linguine', price: 14},
+    {type: 'Spaghetti', price: 12},
     {type: 'Lasagna', price: 12, img:lasagna},
 
 ]
